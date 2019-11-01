@@ -1,0 +1,31 @@
+PODS:
+  - Masonry (1.1.0)
+  - SWAlertController (0.1.0):
+    - Masonry (~> 1.1.0)
+    - YYKit (~> 1.0.9)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - Masonry (= 1.1.0)
+  - SWAlertController (from `../`)
+  - YYKit (= 1.0.9)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+    - YYKit
+
+EXTERNAL SOURCES:
+  SWAlertController:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SWAlertController: 07eff924f4b711918ab8226c213329d6ab4117d4
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: a6c4b1a935ae655b0fcdf45ee9095e4bbe69ac2f
+
+COCOAPODS: 1.8.4

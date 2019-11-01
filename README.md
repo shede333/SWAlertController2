@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/cocoapods/l/SWAlertController.svg?style=flat)](https://cocoapods.org/pods/SWAlertController)
 [![Platform](https://img.shields.io/cocoapods/p/SWAlertController.svg?style=flat)](https://cocoapods.org/pods/SWAlertController)
 
+## Source Code
+
+<https://github.com/shede333/SWAlertController>
+
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
@@ -19,6 +23,8 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'SWAlertController'
 ```
+
+## Use
 
 ## Author
 

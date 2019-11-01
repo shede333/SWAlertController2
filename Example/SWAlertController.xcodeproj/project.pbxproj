@@ -39,7 +39,7 @@
 /* Begin PBXFileReference section */
 		0C53C09ED3FA4AFB0D9952A0 /* Pods-SWAlertController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWAlertController_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SWAlertController_Tests/Pods-SWAlertController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		11EB247C9EFEB6362B4300A5 /* Pods_SWAlertController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWAlertController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		17FABF581478519ABB0EFA4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		17FABF581478519ABB0EFA4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		52B7EB730510E02B726BF010 /* Pods-SWAlertController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWAlertController_Tests.release.xcconfig"; path = "Target Support Files/Pods-SWAlertController_Tests/Pods-SWAlertController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		555EE715F1AD2EF542D690CA /* Pods-SWAlertController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWAlertController_Example.debug.xcconfig"; path = "Target Support Files/Pods-SWAlertController_Example/Pods-SWAlertController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		5D7E9C54C2604042E70262AF /* Pods_SWAlertController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SWAlertController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -64,8 +64,8 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		92CA276371AE9B0873658F6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C52A4AC2D5F64B036B53A4A6 /* SWAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SWAlertController.podspec; path = ../SWAlertController.podspec; sourceTree = "<group>"; };
+		92CA276371AE9B0873658F6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C52A4AC2D5F64B036B53A4A6 /* SWAlertController.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SWAlertController.podspec; path = ../SWAlertController.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F563F9695E021F7AD820E4EF /* Pods-SWAlertController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SWAlertController_Example.release.xcconfig"; path = "Target Support Files/Pods-SWAlertController_Example/Pods-SWAlertController_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				0C53C09ED3FA4AFB0D9952A0 /* Pods-SWAlertController_Tests.debug.xcconfig */,
 				52B7EB730510E02B726BF010 /* Pods-SWAlertController_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -248,6 +247,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = shede333;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = D5G53B2K3T;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -302,11 +306,15 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-SWAlertController_Example/Pods-SWAlertController_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/SWAlertController/SWAlertController.framework",
+				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SWAlertController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -494,12 +502,16 @@
 			baseConfigurationReference = 555EE715F1AD2EF542D690CA /* Pods-SWAlertController_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D5G53B2K3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWAlertController/SWAlertController-Prefix.pch";
 				INFOPLIST_FILE = "SWAlertController/SWAlertController-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SWwildcardAll;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +522,16 @@
 			baseConfigurationReference = F563F9695E021F7AD820E4EF /* Pods-SWAlertController_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D5G53B2K3T;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SWAlertController/SWAlertController-Prefix.pch";
 				INFOPLIST_FILE = "SWAlertController/SWAlertController-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = SWwildcardAll;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

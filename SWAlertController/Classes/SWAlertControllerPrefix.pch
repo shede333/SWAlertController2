@@ -1,0 +1,17 @@
+#ifndef OSWOAuthCodePrefix_h
+#define OSWOAuthCodePrefix_h
+
+#define SWColorWithRGBA(r, g, b, a) [UIColor colorWithRed:(r/255.0) green:(g/255.0) blue:(b/255.0) alpha:a]
+#define SWColorWithRGB(r, g, b) SWColorWithRGBA(r, g, b, 1.0)
+#define SWColorHexWithAlpha(hexValue, aplha) [UIColor colorWithRed:((CGFloat)((hexValue & 0xFF0000) >> 16))/255.0 green:((CGFloat)((hexValue & 0xFF00) >> 8))/255.0 blue:((CGFloat)(hexValue & 0xFF))/255.0 alpha:aplha]
+#define SWColorHex(hexValue) SWColorHexWithAlpha(hexValue, 1.0)
+
+/** 重要文字用色，eg 标题 */
+#define SWColor_Title SWColorHex(0x333333)
+/** 用于分割线颜色 */
+#define SWColor_Line SWColorHex(0xF0F1F3)
+
+//系统默认字体
+#define SWSystemFont(fontSize) [UIFont systemFontOfSize:fontSize]
+
+#endif /* OSWOAuthCode-prefix_h */
