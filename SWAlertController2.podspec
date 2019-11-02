@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SWAlertController'
+  s.name             = 'SWAlertController2'
   s.version          = '0.1.0'
   s.summary          = 'UIAlertController的自定义实现'
 
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 UIAlertController的自定义实现，支持更丰富的UI定制，支持更多的UI控件；
                        DESC
 
-  s.homepage         = 'https://github.com/shede333/SWAlertController'
+  s.homepage         = 'https://github.com/shede333/SWAlertController2'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shede333' => '333wshw@163.com' }
-  s.source           = { :git => 'https://github.com/shede333/SWAlertController.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shede333/SWAlertController2.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform = :ios
