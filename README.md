@@ -5,17 +5,26 @@
 [![License](https://img.shields.io/cocoapods/l/SWAlertController.svg?style=flat)](https://cocoapods.org/pods/SWAlertController)
 [![Platform](https://img.shields.io/cocoapods/p/SWAlertController.svg?style=flat)](https://cocoapods.org/pods/SWAlertController)
 
-## Source Code
+
+参照系统的“UIAlertController”的样式UI和接口做成的弹框；
+
+* 支持多种z外观UI的自定义；  
+* UI外形和系统弹框的样式统一；  
+* 创建、使用的接口和系统弹框的“UIAlertController”接口基本一致；  
+* 相对于系统弹框，除了显示文本message，还支持更多的控件类型；  
+* 按照“SWAlertControllerItemProtocol”控件协议，用户可以j自己创建更多的控件；  
+
+## 源码（Source Code）
 
 <https://github.com/shede333/SWAlertController>
 
-## Example
+## 示例工程（Example）
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+运行“Example”里的demo工程，需要先在根目录执行 `pod install` ；
 
-## Installation
+## 安装（Installation）
 
 SWAlertController is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
@@ -24,9 +33,19 @@ it, simply add the following line to your Podfile:
 pod 'SWAlertController'
 ```
 
-## Use
+## 使用方式（Use）
 
-## Author
+使用方式，和系统的**UIAlertController**类似，具体详见Example目录里的Demo工程；   
+
+## 截图（Screenshot）
+
+![image1](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert1.png)
+
+![image2](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert2.png)
+
+![image3](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert3.png)
+
+## 作者（Author）
 
 shede333, 333wshw@163.com
 
