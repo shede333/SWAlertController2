@@ -16,7 +16,8 @@
 
 ## 源码（Source Code）
 
-<https://github.com/shede333/SWAlertController2>
+<https://github.com/shede333/SWAlertController2>   
+<https://gitee.com/shede333/SWAlertController2>  
 
 ## 示例工程（Example）
 
