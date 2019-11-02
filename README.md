@@ -45,6 +45,10 @@ pod 'SWAlertController'
 
 ![image3](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert3.png)
 
+![image4](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert2.jpg)
+
+![image5](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert2-tp.jpg)
+
 ## 作者（Author）
 
 shede333, 333wshw@163.com
