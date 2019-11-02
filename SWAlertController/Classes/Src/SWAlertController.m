@@ -133,9 +133,9 @@
         UIView *itemView = [widgetItem view];
         [self.hubContentView addSubview:itemView];
         
-        CGFloat topSpace = [widgetItem respondsToSelector:@selector(topSpace)]?[widgetItem leftSpace]:0;
+        CGFloat topSpace = [widgetItem respondsToSelector:@selector(topSpace)]?[widgetItem topSpace]:0;
         CGFloat leftSpace = [widgetItem respondsToSelector:@selector(leftSpace)]?[widgetItem leftSpace]:15;
-        CGFloat rightSpace = [widgetItem respondsToSelector:@selector(rightSpace)]?[widgetItem leftSpace]:15;
+        CGFloat rightSpace = [widgetItem respondsToSelector:@selector(rightSpace)]?[widgetItem rightSpace]:15;
         
         [itemView mas_makeConstraints:^(MASConstraintMaker *make) {
             make.top.equalTo(lastView.mas_bottom).offset(topSpace);

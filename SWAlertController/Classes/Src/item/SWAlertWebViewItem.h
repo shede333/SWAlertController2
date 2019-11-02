@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface SWAlertWebViewItem : NSObject<SWAlertControllerItemProtocol>
 
+/// 顶部距离上面控件的距离，默认为0
+@property (nonatomic, assign) CGFloat topSpace;
+
 /**
  创建实例的工厂方法
 

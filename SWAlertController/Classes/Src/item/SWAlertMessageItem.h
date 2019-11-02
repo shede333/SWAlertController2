@@ -15,6 +15,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface SWAlertMessageItem : NSObject<SWAlertControllerItemProtocol>
 
+/// 顶部距离上面控件的距离，默认为0
+@property (nonatomic, assign) CGFloat topSpace;
+
 /**
  显示内容的Label；
  默认13号字体，字体颜色：SWColor_Title

@@ -19,6 +19,9 @@ typedef NS_ENUM(NSUInteger, SWAIVIImageAlignment) {
 /// 代表一张图片的item，支持水平居中、居左、居右布局，可以响应点击事件
 @interface SWAlertImageViewItem : NSObject<SWAlertControllerItemProtocol>
 
+/// 顶部距离上面控件的距离，默认为0
+@property (nonatomic, assign) CGFloat topSpace;
+
 /// UIImageView，可以设置一些其他属性
 @property (nonatomic, strong, readonly) UIImageView *imageView;
 

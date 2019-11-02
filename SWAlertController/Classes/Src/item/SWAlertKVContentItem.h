@@ -14,6 +14,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @interface SWAlertKVContentItem : NSObject<SWAlertControllerItemProtocol>
 
+/// 顶部距离上面控件的距离，默认为0
+@property (nonatomic, assign) CGFloat topSpace;
+
 /**
  左边的标题Label
  */
