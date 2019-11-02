@@ -22,7 +22,9 @@ UIAlertController的自定义实现，支持更丰富的UI定制，支持更多�
                        DESC
 
   s.homepage         = 'https://github.com/shede333/SWAlertController2'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.screenshots      = ['https://raw.githubusercontent.com/shede333/SWAlertController2/master/Screenshot/alert1.png',
+                        'https://raw.githubusercontent.com/shede333/SWAlertController2/master/Screenshot/alert2.png',
+                        'https://raw.githubusercontent.com/shede333/SWAlertController2/master/Screenshot/alert3.png']
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shede333' => '333wshw@163.com' }
   s.source           = { :git => 'https://github.com/shede333/SWAlertController2.git', :tag => s.version.to_s }

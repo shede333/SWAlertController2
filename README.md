@@ -1,9 +1,9 @@
-# SWAlertController
+# SWAlertController2
 
-[![CI Status](https://img.shields.io/travis/shede333/SWAlertController.svg?style=flat)](https://travis-ci.org/shede333/SWAlertController)
-[![Version](https://img.shields.io/cocoapods/v/SWAlertController.svg?style=flat)](https://cocoapods.org/pods/SWAlertController)
-[![License](https://img.shields.io/cocoapods/l/SWAlertController.svg?style=flat)](https://cocoapods.org/pods/SWAlertController)
-[![Platform](https://img.shields.io/cocoapods/p/SWAlertController.svg?style=flat)](https://cocoapods.org/pods/SWAlertController)
+[![CI Status](https://img.shields.io/travis/shede333/SWAlertController2.svg?style=flat)](https://travis-ci.org/shede333/SWAlertController2)
+[![Version](https://img.shields.io/cocoapods/v/SWAlertController2.svg?style=flat)](https://cocoapods.org/pods/SWAlertController2)
+[![License](https://img.shields.io/cocoapods/l/SWAlertController2.svg?style=flat)](https://cocoapods.org/pods/SWAlertController2)
+[![Platform](https://img.shields.io/cocoapods/p/SWAlertController2.svg?style=flat)](https://cocoapods.org/pods/SWAlertController2)
 
 
 参照系统的“UIAlertController”的样式UI和接口做成的弹框；
@@ -16,7 +16,7 @@
 
 ## 源码（Source Code）
 
-<https://github.com/shede333/SWAlertController>
+<https://github.com/shede333/SWAlertController2>
 
 ## 示例工程（Example）
 
@@ -30,7 +30,7 @@ SWAlertController is available through [CocoaPods](https://cocoapods.org). To in
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SWAlertController'
+pod 'SWAlertController2'
 ```
 
 ## 使用方式（Use）
@@ -39,11 +39,11 @@ pod 'SWAlertController'
 
 ## 截图（Screenshot）
 
-![image1](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert1.png)
+![image1](https://raw.githubusercontent.com/shede333/SWAlertController2/master/Screenshot/alert1.png)
 
-![image2](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert2.png)
+![image2](https://raw.githubusercontent.com/shede333/SWAlertController2/master/Screenshot/alert2.png)
 
-![image3](https://raw.githubusercontent.com/shede333/SWAlertController/master/Screenshot/alert3.png)
+![image3](https://raw.githubusercontent.com/shede333/SWAlertController2/master/Screenshot/alert3.png)
 
 ## 作者（Author）
 
@@ -51,4 +51,4 @@ shede333, 333wshw@163.com
 
 ## License
 
-SWAlertController is available under the MIT license. See the LICENSE file for more info.
+SWAlertController2 is available under the MIT license. See the LICENSE file for more info.
