@@ -1,36 +1,31 @@
 PODS:
   - Masonry (1.1.0)
-  - SWAlertController (0.1.0):
+  - SWAlertController2 (0.2.0):
     - Masonry (~> 1.1.0)
     - YYKit (~> 1.0.9)
-  - SWOAuthCode (0.4.2):
-    - Masonry (~> 1.1.0)
   - YYKit (1.0.9):
     - YYKit/no-arc (= 1.0.9)
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
   - Masonry (= 1.1.0)
-  - SWAlertController (from `../`)
-  - SWOAuthCode
+  - SWAlertController2 (from `../`)
   - YYKit (= 1.0.9)
 
 SPEC REPOS:
   trunk:
     - Masonry
-    - SWOAuthCode
     - YYKit
 
 EXTERNAL SOURCES:
-  SWAlertController:
+  SWAlertController2:
     :path: "../"
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SWAlertController: 07eff924f4b711918ab8226c213329d6ab4117d4
-  SWOAuthCode: fadef6aadf1c64573e841dc32b084cfc4123823d
+  SWAlertController2: 7ace53c2a3f3f76def0f930c6aa8a3e412cde4ca
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: bcba24a3a6f931cf639b9f7553ed572c05a0c1fd
+PODFILE CHECKSUM: 22add567ac08da07cbddb3a94aaa7b8097be0abf
 
 COCOAPODS: 1.8.4

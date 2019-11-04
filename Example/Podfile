@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '8.0'
 
 target 'SWAlertController_Example' do
-  pod 'SWAlertController', :path => '../'
+  pod 'SWAlertController2', :path => '../'
   
   pod 'YYKit',                  '1.0.9',          :inhibit_warnings => true
   pod 'Masonry',                '1.1.0',          :inhibit_warnings => true
